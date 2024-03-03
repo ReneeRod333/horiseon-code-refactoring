@@ -2,18 +2,24 @@
 
 ## Description
 
-Horiseon, a marketing agenency, is requesting to incorporate disability inclusion to their website by implementing accessibility. 
-
-
-- 
-- 
+Horiseon, a marketing agenency, requested code refactoring to incorporate disability inclusion and increased search engine optimization to their website by implementing accessibility.
 
 ## Installation
 
 N/A
 
-## Usage
+## Changes Made
 
+### HTML
+- Changed title to be more descriptive.
+- Updated elements to be more semantic.
+- Added alt attributes with descriptions for accessibility. 
+- Ensured all links worked, fixed broken link.
+
+
+### CSS
+- Changed class attributes to aid in consolidating CSS styles. 
+- Reorganized the structure of CSS file to group related elements.
 
 
 ## Credits
@@ -47,3 +53,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## Finished Mockup Display
+![](/assets/images/finished-mockup.png)
