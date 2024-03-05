@@ -1,4 +1,4 @@
-/* Grouped general HTML styling*/
+/* General HTML Element Styling*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -37,7 +37,6 @@ p {
     color: #d9dcd6;
 }
 
-/* Changed div element to nav for header class to reflect HTML  */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -55,6 +54,7 @@ p {
     margin-left: 25px;
 }
 
+/* Hero Image */
 .hero {
     height: 800px;
     width: 100%;
@@ -64,6 +64,7 @@ p {
     background-position: center;
 }
 
+/* Main */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -78,34 +79,6 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-}
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-/* Replaced original class selector names with "benefit-section" and "services-section" to consolidate styles */
-.benefit-section {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-section h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-section img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
 }
 
 .services-section {
@@ -126,6 +99,35 @@ p {
     font-size: 36px;
 }
 
+/* Aside */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit-section {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-section h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Footer */
 .footer {
     padding: 30px;
     clear: both;
